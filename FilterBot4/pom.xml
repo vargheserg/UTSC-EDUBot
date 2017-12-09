@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>me.outfiay.bots</groupId>
+  <artifactId>FilterBot4</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>FilterBot4</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+<dependency>
+      <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.11.2</version>
+    </dependency>
+    <dependency>
+    	<groupId>net.dv8tion</groupId>
+    	<artifactId>JDA</artifactId>
+    	<version>3.3.1_293</version>
+	</dependency>
+  </dependencies>
+  <repositories>
+  	<repository>
+    	<id>jcenter</id>
+    	<name>jcenter-bintray</name>
+    	<url>http://jcenter.bintray.com</url>
+	</repository>
+  </repositories>
+  
+</project>
